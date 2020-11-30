@@ -3494,7 +3494,7 @@ body {
   color: rgba(255, 255, 255, 0.75);
   text-align: center;
   cursor: default;
-  padding: 10em 4em 9em 4em;
+  padding: 6em 4em 6em 4em;
 }
 
 #banner input,
@@ -3886,6 +3886,10 @@ body.is-ie .post {
 
 .post .content .postnav .prev {
   border-bottom: none;
+}
+
+.post .content .inner img {
+	width: 100%;
 }
 
 .post .image {
